@@ -1,0 +1,74 @@
+i created three tables for this project in oracle
+codes for those tables:
+
+1.
+create table Doctors
+(
+ did varchar2(20), dname varchar2(20), specilist varchar2(20), appoint varchar2(20), doc_qual varchar2(20),
+	 droom number(20), primary key(did)
+);
+
+2.
+create table patients
+(
+   pid varchar2(20) , pname varchar2(20), disease varchar2(20), sex varchar2(20), admit_status varchar2(20)
+	 age number(20), primary key(pid)
+);
+3.
+create table medicines(
+ med_name varchar2(20), med_comp varchar2(20), exp_date varchar2(20)
+	 med_cost number(20), count number(20)
+);
+
+
+
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (master)
+$ git init
+Initialized empty Git repository in C:/Users/deva/OneDrive/Desktop/casestudy/.git/
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (master)
+$ git add .
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (master)
+$ git commit -m "First Commit"
+[master (root-commit) 67896c3] First Commit
+ 13 files changed, 750 insertions(+)
+ create mode 100644 BajajHospitalManagement/.classpath
+ create mode 100644 BajajHospitalManagement/.project
+ create mode 100644 BajajHospitalManagement/.settings/org.eclipse.jdt.core.prefs
+ create mode 100644 BajajHospitalManagement/bin/hospital/BajajHospitalManagement.class
+ create mode 100644 BajajHospitalManagement/bin/hospital/Read me
+ create mode 100644 BajajHospitalManagement/bin/hospital/medicines.class
+ create mode 100644 BajajHospitalManagement/bin/hospital/newDoctor.class
+ create mode 100644 BajajHospitalManagement/bin/hospital/patients.class
+ create mode 100644 BajajHospitalManagement/src/hospital/BajajHospitalManagement.java
+ create mode 100644 BajajHospitalManagement/src/hospital/Read me
+ create mode 100644 BajajHospitalManagement/src/hospital/medicines.java
+ create mode 100644 BajajHospitalManagement/src/hospital/newDoctor.java
+ create mode 100644 BajajHospitalManagement/src/hospital/patients.java
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (master)
+$ git branch -M main
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (main)
+$ git remote add origin https://github.com/Deva-Selvaraj/casestudy.git
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (main)
+$ git push origin main
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (18/18), done.
+Writing objects: 100% (20/20), 15.91 KiB | 1.33 MiB/s, done.
+Total 20 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Deva-Selvaraj/casestudy.git
+ * [new branch]      main -> main
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (main)
+$ ^C
+
+
+deva@DESKTOP-R59N00B MINGW64 ~/OneDrive/Desktop/casestudy (main)
+$
